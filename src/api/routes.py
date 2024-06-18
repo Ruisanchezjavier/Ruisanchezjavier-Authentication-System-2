@@ -107,5 +107,11 @@ def get_invoices():
 # in json format
 # GET
 
-
+#  work on the front end
+#  1. create 3 new pages: /Signup, /Login, /Private
+#  2. create the neccessary inputs needed for signup.js and login.js
+#  3. make sure that they are controlled inputs (useState)
+#  4. include useContext and Context for flux applications
+#  5. update flux.js to have token, message, invoices in the store
+#  6. update and test actions to be able to retrieve a token and save  
 
