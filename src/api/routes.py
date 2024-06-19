@@ -113,5 +113,5 @@ def get_invoices():
 #  3. make sure that they are controlled inputs (useState)
 #  4. include useContext and Context for flux applications
 #  5. update flux.js to have token, message, invoices in the store
-#  6. update and test actions to be able to retrieve a token and save  
+#  6. update and test actions to be able to retrieve a token and save it in localStorage 
 
