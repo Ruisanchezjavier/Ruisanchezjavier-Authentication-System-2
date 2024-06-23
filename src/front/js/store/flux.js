@@ -96,9 +96,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 						token: data.access_token,
 						isLoginSuccessful: true 
 					});
-				
-					console.log("Login successful. Token:", data.access_token);
-					return true;  
+					return data;  
 			}, 
 
 			// logout allows removal of the token fro the store
